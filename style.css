@@ -606,6 +606,204 @@ img {
 
     color: #020617;
 
-    border-radius: 6px;
+    border-radius: website
+
+  /* =========================
+   MOBILE RESPONSIVE POLISH
+========================= */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 15px;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-links {
+        gap: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+
+    /* HERO */
+    .hero {
+        min-height: auto;
+        padding: 60px 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 35px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+
+    .hero-intro {
+        font-size: 16px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+        margin: auto;
+    }
+
+
+    /* PROFILE IMAGE */
+    .image-glow {
+        width: 210px;
+        height: 210px;
+    }
+
+
+    /* BUTTONS */
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        padding: 12px 20px;
+    }
+
+
+    /* SOCIAL LINKS */
+    .social-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    /* SECTIONS */
+    .section {
+        padding: 70px 20px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+
+    /* ABOUT */
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .about-box {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-box div {
+        padding: 15px 8px;
+    }
+
+    .about-box strong {
+        font-size: 23px;
+    }
+
+
+    /* SKILLS */
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .skill-card {
+        padding: 20px 15px;
+    }
+
+
+    /* PROJECTS */
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+}
+
+
+/* SMALL PHONES */
+@media (max-width: 400px) {
+
+    .navbar {
+        padding: 12px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .image-glow {
+        width: 180px;
+        height: 180px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-box {
+        gap: 8px;
+    }
+
+    .about-box strong {
+        font-size: 20px;
+    }
+
+    .about-box span {
+        font-size: 11px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 60px 15px;
+    }
 
 }
